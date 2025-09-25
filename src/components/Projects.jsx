@@ -42,7 +42,7 @@ const Projects = () => {
                   <img
                     src={project.image || "/placeholder.svg"}
                     alt={project.title}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover"ga 
                   />
                 </div>
 
