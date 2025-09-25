@@ -1,18 +1,18 @@
 const Skills = () => {
   const skills = [
-    { name: "HTML", level: "Intermediate", icon: "/public/html.png" },
-    { name: "CSS", level: "Intermediate", icon: "/public/CSS.png" },
-    { name: "JavaScript", level: "Intermediate", icon: "/public/Javascript.png" },
-    { name: "C", level: "Intermediate", icon: "/public/C.png" },
-    { name: "SQL", level: "Intermediate", icon: "/public/sql.png" },
-    { name: "Figma", level: "Advanced", icon: "/public/figma.png" },
-    { name: "Photoshop", level: "Advanced", icon: "/public/photoshop.png" },
-    { name: "Illustrator", level: "Basic", icon: "/public/illustrator.png" },
-    { name: "Premiere", level: "Advanced", icon: "/public/premiere.png" },
-    { name: "GitHub", level: "Intermediate", icon: "/public/github.png" },
-    { name: "Office", level: "Advanced", icon: "/public/office.png" },
-    { name: "Java", level: "Basic", icon: "/public/java.png" },
-    { name: "React", level: "Intermediate", icon: "/public/react.png" },
+    { name: "HTML", level: "Intermediate", icon: "/public/images/html.png" },
+    { name: "CSS", level: "Intermediate", icon: "/public/images/CSS.png" },
+    { name: "JavaScript", level: "Intermediate", icon: "/public/images/Javascript.png" },
+    { name: "C", level: "Intermediate", icon: "/public/images/C.png" },
+    { name: "SQL", level: "Intermediate", icon: "/public/images/sql.png" },
+    { name: "Figma", level: "Advanced", icon: "/public/images/figma.png" },
+    { name: "Photoshop", level: "Advanced", icon: "/public/images/photoshop.png" },
+    { name: "Illustrator", level: "Basic", icon: "/public/images/illustrator.png" },
+    { name: "Premiere", level: "Advanced", icon: "/public/images/premiere.png" },
+    { name: "GitHub", level: "Intermediate", icon: "/public/images/github.png" },
+    { name: "Office", level: "Advanced", icon: "/public/images/office.png" },
+    { name: "Java", level: "Basic", icon: "/public/images/java.png" },
+    { name: "React", level: "Intermediate", icon: "/public/images/react.png" },
   ]
 
   return (
