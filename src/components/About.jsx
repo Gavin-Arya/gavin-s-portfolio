@@ -1,8 +1,3 @@
-const handleDownload = () => {
-  const link = document.createElement("a")
-  link.href= "/public/Gavin Arya Wibowo CV"
-}
-
 const About = () => {
   return (
     <section id="about" className="py-22.5">
@@ -11,7 +6,7 @@ const About = () => {
           <div className="order-2 md:order-1">
             <div className="w-full h-90 bg-gray-200 rounded-2xl flex items-center justify-center overflow-hidden">
               <img 
-                src="/public/About Photo.jpg" alt="Gavin" className="w-full h-full object-cover"/>
+                src="/public/About-Photo.jpg" alt="Gavin" className="w-full h-full object-cover"/>
             </div>
           </div>
 
@@ -23,7 +18,7 @@ const About = () => {
             </p>
 
             <a 
-              href= "/public/Gavin Arya Wibowo CV.pdf"
+              href= "/public/Gavin-Arya-Wibowo-CV.pdf"
               download
               className="bg-primaryText text-white px-6 py-3 rounded-full font-medium hover:bg-accentGreen hover:scale-105 transition-all duration-300">
               View My CV

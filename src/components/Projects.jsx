@@ -11,7 +11,7 @@ const Projects = () => {
       title: "Second Serve Mobile App",
       description: "I led the UI/UX efforts, actively conducting user research to gather insights and the designing a comprehensive, user-friendly, and accessible interface.",
       tags: ["UI/UX", "Mobile", "Figma", "Competition", "Group Project"],
-      image: "/public/second serve.png",
+      image: "/public/second-serve.png",
       link: "https://www.figma.com/proto/iC9iEyKdIURjpKuW3RCT8t/Techfest?node-id=212-1726&t=t05EqWmWE5uVAYMv-1",
     },
     {
