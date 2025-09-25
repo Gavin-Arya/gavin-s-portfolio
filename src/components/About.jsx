@@ -1,3 +1,8 @@
+const handleDownload = () => {
+  const link = document.createElement("a")
+  link.href= "/public/Gavin Arya Wibowo CV"
+}
+
 const About = () => {
   return (
     <section id="about" className="py-22.5">
@@ -17,9 +22,12 @@ const About = () => {
               of people's needs, and I'm dedicated to crafting user experiences that are not just visually appealing, but also incredibly useful and reliable.
             </p>
 
-            <button className="bg-primaryText text-white px-6 py-3 rounded-full font-medium hover:bg-accentGreen hover:scale-105 transition-all duration-300">
+            <a 
+              href= "/public/Gavin Arya Wibowo CV.pdf"
+              download
+              className="bg-primaryText text-white px-6 py-3 rounded-full font-medium hover:bg-accentGreen hover:scale-105 transition-all duration-300">
               View My CV
-            </button>
+            </a>
           </div>
         </div>
       </div>
