@@ -1,18 +1,32 @@
+import html from '../images/html.png';
+import css from '../images/CSS.png';
+import javascript from '../images/javascript.png';
+import c from '../images/C.png';
+import sql from '../images/sql.png';
+import figma from '../images/figma.png';
+import photoshop from '../images/photoshop.png';
+import illustrator from '../images/illustrator.png';
+import premiere from '../images/premiere.png';
+import github from '../images/github.png';
+import office from '../images/office.png';
+import java from '../images/java.png';
+import react from '../images/react.png';
+
 const Skills = () => {
   const skills = [
-    { name: "HTML", level: "Intermediate", icon: "/public/images/html.png" },
-    { name: "CSS", level: "Intermediate", icon: "/public/images/CSS.png" },
-    { name: "JavaScript", level: "Intermediate", icon: "/public/images/Javascript.png" },
-    { name: "C", level: "Intermediate", icon: "/public/images/C.png" },
-    { name: "SQL", level: "Intermediate", icon: "/public/images/sql.png" },
-    { name: "Figma", level: "Advanced", icon: "/public/images/figma.png" },
-    { name: "Photoshop", level: "Advanced", icon: "/public/images/photoshop.png" },
-    { name: "Illustrator", level: "Basic", icon: "/public/images/illustrator.png" },
-    { name: "Premiere", level: "Advanced", icon: "/public/images/premiere.png" },
-    { name: "GitHub", level: "Intermediate", icon: "/public/images/github.png" },
-    { name: "Office", level: "Advanced", icon: "/public/images/office.png" },
-    { name: "Java", level: "Basic", icon: "/public/images/java.png" },
-    { name: "React", level: "Intermediate", icon: "/public/images/react.png" },
+    { name: "HTML", level: "Intermediate", icon: html },
+    { name: "CSS", level: "Intermediate", icon: css },
+    { name: "JavaScript", level: "Intermediate", icon: javascript },
+    { name: "C", level: "Intermediate", icon: c },
+    { name: "SQL", level: "Intermediate", icon: sql },
+    { name: "Figma", level: "Advanced", icon: figma },
+    { name: "Photoshop", level: "Advanced", icon: photoshop },
+    { name: "Illustrator", level: "Basic", icon: illustrator },
+    { name: "Premiere", level: "Advanced", icon: premiere },
+    { name: "GitHub", level: "Intermediate", icon: github },
+    { name: "Office", level: "Advanced", icon: office },
+    { name: "Java", level: "Basic", icon: java },
+    { name: "React", level: "Intermediate", icon: react},
   ]
 
   return (

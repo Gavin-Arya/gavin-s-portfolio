@@ -1,24 +1,28 @@
+import secondServe from '../images/second serve.png';
+import gotong from '../images/gotong.png';
+import grocerEase from '../images/grocerease.png';
+
 const Projects = () => {
   const projects = [
     {
       title: "Gotong Mobile App",
       description: "I led the UI/UX efforts, actively conducting user research to gather insights and the designing a comprehensive, user-friendly, and accessible interface.",
       tags: ["UI/UX", "Mobile", "Figma", "Competition", "Group Project"],
-      image: "/public/images/gotong.png",
+      image: gotong,
       link: "https://www.figma.com/proto/4AbO0QOOwmnbzJ1xBca2eb/Gotong?node-id=1066-3582&t=nKD6DRHc6roLktfW-1",
     },
     {
       title: "Second Serve Mobile App",
       description: "I led the UI/UX efforts, actively conducting user research to gather insights and the designing a comprehensive, user-friendly, and accessible interface.",
       tags: ["UI/UX", "Mobile", "Figma", "Competition", "Group Project"],
-      image: "/public/images/second-serve.png",
+      image: secondServe,
       link: "https://www.figma.com/proto/iC9iEyKdIURjpKuW3RCT8t/Techfest?node-id=212-1726&t=t05EqWmWE5uVAYMv-1",
     },
     {
       title: "GrocerEase",
       description: "As both the UI/UX and Front-End developer, I conducted user research and designed the interface, then developed it to be accessible to and easy to use.",
       tags: ["UI/UX", "Front-End","Figma", "React", "Website", "Group Project"],
-      image: "/public/imagesgrocerease.png",
+      image: grocerEase,
       links: {
         demo: "https://grocer-ease-frontend-six.vercel.app/",
         github: "https://github.com/IntanWp/GrocerEase"

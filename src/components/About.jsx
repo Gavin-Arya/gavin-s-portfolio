@@ -1,3 +1,5 @@
+import photo from '../images/About Photo.jpg';
+
 const About = () => {
   return (
     <section id="about" className="py-22.5">
@@ -6,7 +8,7 @@ const About = () => {
           <div className="order-2 md:order-1">
             <div className="w-full h-90 bg-gray-200 rounded-2xl flex items-center justify-center overflow-hidden">
               <img 
-                src="/public/images/About-Photo.jpg" alt="Gavin" className="w-full h-full object-cover"/>
+                src={photo} alt="Gavin" className="w-full h-full object-cover"/>
             </div>
           </div>
 
