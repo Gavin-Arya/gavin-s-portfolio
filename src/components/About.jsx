@@ -1,4 +1,5 @@
 import photo from '../images/About Photo.jpg';
+import cv from '../images/Gavin Arya Wibowo CV.pdf'
 
 const About = () => {
   return (
@@ -20,8 +21,8 @@ const About = () => {
             </p>
 
             <a 
-              href= "/public/Gavin-Arya-Wibowo-CV.pdf"
-              download
+              href= {cv}
+              download= "Gavin Arya Wibowo CV"
               className="bg-primaryText text-white px-6 py-3 rounded-full font-medium hover:bg-accentGreen hover:scale-105 transition-all duration-300">
               View My CV
             </a>
